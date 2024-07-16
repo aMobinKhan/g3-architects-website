@@ -115,7 +115,35 @@ main{
     font-weight: 400;
  }
 
+/* some fact related styles */
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 220px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
+}
+.fact-number{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px;
+}
+.fact-description{
+    max-width: 300px;
+}
  /* responsive media query */
  @media screen and (max-width: 576px) {
     .navbar,
